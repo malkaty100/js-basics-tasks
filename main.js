@@ -9,3 +9,12 @@ let number = 1234; // INPUT
 
 // write your code below this line
 
+let reversed=0;
+let digit=0
+while(number>0){
+    digit=number%10
+    reversed=reversed*10+digit
+    number=Math.floor(number/10)
+
+}
+console.log(reversed);
