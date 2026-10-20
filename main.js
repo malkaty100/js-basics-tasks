@@ -8,4 +8,8 @@ let number = 121; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
-
+if(number%10===Math.floor(number/100))
+    console.log('Palindrome');
+else
+    console.log('Not a Palindrome');
+    
